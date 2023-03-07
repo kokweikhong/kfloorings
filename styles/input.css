@@ -65,3 +65,23 @@ h6 {
     font-size: 1.618rem;
   }
 } */
+
+body {
+  color: #191514;
+}
+
+.text-with-stroke {
+  stroke-width: 2px;
+  -webkit-text-stroke: 1px #b19777;
+}
+
+.hover-background-applicattion {
+  background: linear-gradient(#000000 0 0) left / var(--p,0) no-repeat;
+  background-position: 100% 0 0% 0;
+  transition: .4s,background-position .4s;
+}
+.hover-background-applicattion:hover {
+  --p: 100%;
+  /* background-position: right; */
+  background-position: 0% 0% 0% 0%;
+}

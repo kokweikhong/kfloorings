@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 // import { Poppins } from "next/font/google";
-
+import Application from "@/components/Application";
 // const poppins = Poppins({
 //   weight: ["400", "500", "600", "700", "800", "900"],
 //   subsets: ["latin"],
@@ -60,7 +60,7 @@ export default function Home() {
               Sustainable and ethically sourced, KANDINSKY offers engineered
               timber for walls, ceilings, stairs, and flooring.{" "}
             </p>
-            <button className="border border-white py-[8px] px-[15px] text-[15px] ml-[50px] mt-[30px] text-[#b19777]">
+            <button className="border border-white py-[14px] px-[35px] text-[13px] md:text-[15px] ml-[50px] mt-[30px] text-white]">
               READ MORE
             </button>
           </div>
@@ -75,62 +75,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="container mx-auto mt-[50px] px-[15px] py-[120px]">
-        <div>
-          <h6 className="uppercase mb-[15px] font-normal text-[12px] tracking-[4px] relative pl-[40px] text-[#b19777] before:content-[''] before:w-[25px] before:h-[1px] before:bg-[#b19777] before:absolute before:top-1/2 before:left-0">
-            Application
-          </h6>
-          <h2 className="font-semibold text-[28px] md:text-[40px] leading-[1.4] mb-[20px]">
-            Handcrafted European Wood
-          </h2>
-        </div>
-        <div className="md:flex md:flex-wrap md:mx-[-15px]">
-          <div className="py-[60px] px-[40px] bg-gray-600 text-white border border-r-0 border-solid border-[#eee] transition-all duration-300 md:flex-[1_1_50%] md:max-w-1/2 lg:basis-1/4 lg:max-w-1/4">
-            <h3 className="text-[40px] mb-[30px]">01</h3>
-            <h2 className="font-semibold leading-6 text-base mb-[20px]">
-              Floor
-            </h2>
-            <p className="text-[15px] font-normal text-[#eee] leading-8">
-              Our natural wood flooring services are both durable and
-              aesthetically pleasing.
-            </p>
-            <button className="mt-[30px]">Read More</button>
-          </div>
-          <div className="py-[60px] px-[40px] bg-gray-600 text-white border border-r-0 border-solid border-[#eee] transition-all duration-300 md:flex-[1_1_50%] md:max-w-1/2 lg:basis-1/4 lg:max-w-1/4">
-            <h3 className="text-[40px] mb-[30px]">02</h3>
-            <h2 className="font-semibold leading-6 text-base mb-[20px]">
-              Ceiling
-            </h2>
-            <p className="text-[15px] font-normal text-[#eee] leading-8">
-              Transform your space with our beautiful and elegant wood ceiling
-              installation services.
-            </p>
-            <button className="mt-[30px]">Read More</button>
-          </div>
-          <div className="py-[60px] px-[40px] bg-gray-600 text-white border border-r-0 border-solid border-[#eee] transition-all duration-300 md:flex-[1_1_50%] md:max-w-1/2 lg:basis-1/4 lg:max-w-1/4">
-            <h3 className="text-[40px] mb-[30px]">01</h3>
-            <h2 className="font-semibold leading-6 text-base mb-[20px]">
-              Stair
-            </h2>
-            <p className="text-[15px] font-normal text-[#eee] leading-8">
-              We offer expert design and installation services to make your
-              wooden stairs a stunning focal point.
-            </p>
-            <button className="mt-[30px]">Read More</button>
-          </div>
-          <div className="py-[60px] px-[40px] bg-gray-600 text-white border border-r-0 border-solid border-[#eee] transition-all duration-300 md:flex-[1_1_50%] md:max-w-1/2 lg:basis-1/4 lg:max-w-1/4">
-            <h3 className="text-[40px] mb-[30px]">01</h3>
-            <h2 className="font-semibold leading-6 text-base mb-[20px]">
-              Wall
-            </h2>
-            <p className="text-[15px] font-normal text-[#eee] leading-8">
-              Add warmth and charm to your space with our rustic wood wall
-              installation services.
-            </p>
-            <button className="mt-[30px]">Read More</button>
-          </div>
-        </div>
-      </section>
+      <Application />
 
       <section className="container mx-auto px-[15px] py-[120px]">
         <div className="flex flex-wrap justify-center -mx-[15px] mb-[80px]">

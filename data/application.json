@@ -1,0 +1,38 @@
+[
+  {
+    "index": "01",
+    "application": "Floor",
+    "description": "Our natural wood flooring services are both durable and aesthetically pleasing.",
+    "image": {
+      "src": "/images/home/application_floor.jpeg",
+      "alt": ""
+    }
+  },
+  {
+    "index": "02",
+    "application": "Ceiling",
+    "description": "Transform your space with our beautiful and elegant wood ceiling installation services.",
+    "image": {
+      "src": "/images/home/application_ceiling.jpeg",
+      "alt": ""
+    }
+  },
+  {
+    "index": "03",
+    "application": "Stair",
+    "description": "We offer expert design and installation services to make your wooden stairs a stunning focal point.",
+    "image": {
+      "src": "/images/home/application_stair.jpeg",
+      "alt": ""
+    }
+  },
+  {
+    "index": "04",
+    "application": "Wall",
+    "description": "Add warmth and charm to your space with our rustic wood wall installation services.",
+    "image": {
+      "src": "/images/home/application_wall.jpg",
+      "alt": ""
+    }
+  }
+]
