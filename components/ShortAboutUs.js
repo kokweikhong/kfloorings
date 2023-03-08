@@ -1,7 +1,7 @@
 export default function ShortAboutUs() {
   return (
     <section className="container mx-auto mt-[50px] px-[15px] py-[120px]">
-      <div className="lg:flex lg:flex-wrap">
+      <div className="lg:flex lg:flex-wrap w-full max-w-full">
         <div className="lg:flex-[0_0_41.666667%] lg:max-w-[41.666667%] px-[15px]">
           <div
             className="font-playfair h-[500px] w-full relative bg-cover md:w-[90%]"
@@ -27,8 +27,8 @@ export default function ShortAboutUs() {
           </div>
         </div>
 
-        <div className="items-center lg:flex-[0_0_58.333333%] lg:max-w-[58.333333%]">
-          <div className="mt-[50px] relative after:content-[''] after:w-[200px] after:h-[250px] after:absolute after:-top-[40px] after:-right-[40px] after:border-[#fafafa] after:border-[10px] after:-z-[1]">
+        <div className="items-center lg:flex-[1_1_58.333333%] lg:max-w-[58.333333%]">
+          <div className="mt-[50px] relative after:content-[''] after:w-[200px] after:h-[250px] after:absolute after:-top-[40px] after:right-[50px] after:border-[#fafafa] after:border-[10px] after:-z-[1]">
             <h6 className="uppercase mb-[15px] font-normal text-[12px] tracking-[4px] relative pl-[40px] text-[#b19777] before:content-[''] before:w-[25px] before:h-[1px] before:bg-[#b19777] before:absolute before:top-1/2 before:left-0">
               About Us
             </h6>
