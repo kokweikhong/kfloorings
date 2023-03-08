@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 // import { Poppins } from "next/font/google";
 import Application from "@/components/Application";
+import ShortAboutUs from "@/components/ShortAboutUs";
 // const poppins = Poppins({
 //   weight: ["400", "500", "600", "700", "800", "900"],
 //   subsets: ["latin"],
@@ -67,14 +68,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="container mx-auto mt-[50px] px-[15px] py-[120px]">
-        <div>
-          <h6 className="uppercase mb-[15px] font-normal text-[12px] tracking-[4px] relative pl-[40px] text-[#b19777] before:content-[''] before:w-[25px] before:h-[1px] before:bg-[#b19777] before:absolute before:top-1/2 before:left-0">
-            About Us
-          </h6>
-        </div>
-      </section>
-
+      <ShortAboutUs />
       <Application />
 
       <section className="container mx-auto px-[15px] py-[120px]">
@@ -133,14 +127,6 @@ export default function Home() {
               </div>
             );
           })}
-          {/* <div>
-            <div className="delay-300 visible bg-red-500 h-[450px] w-full"></div>
-            <div className="mt-[15px] py-[10px] px-[20px]">
-              <h6 className="font-semibold text-[18px] leading-[1.4]">
-                Natural Oak (Chevron)
-              </h6>
-            </div>
-          </div> */}
         </div>
       </section>
     </main>
