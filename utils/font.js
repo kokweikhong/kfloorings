@@ -51,3 +51,40 @@ export const Poppins = localFont({
     },
   ],
 });
+
+export const PlayfairDisplay = localFont({
+  subsets: ["latin"],
+  variable: "--font-playfair",
+  src: [
+    {
+      path: "../public/fonts/PlayFairDisplay/PlayfairDisplay-Regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/PlayFairDisplay/PlayfairDisplay-Medium.ttf",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/PlayFairDisplay/PlayfairDisplay-SemiBold.ttf",
+      weight: "600",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/PlayFairDisplay/PlayfairDisplay-Bold.ttf",
+      weight: "700",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/PlayFairDisplay/PlayfairDisplay-ExtraBold.ttf",
+      weight: "800",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/PlayFairDisplay/PlayfairDisplay-Black.ttf",
+      weight: "900",
+      style: "normal",
+    },
+  ],
+});

@@ -1,5 +1,5 @@
 import "../styles/main.css";
-import { Poppins } from "@/utils/font";
+import { Poppins, PlayfairDisplay } from "@/utils/font";
 
 export const metadata = {
   title: "Kandinsky",
@@ -9,7 +9,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${Poppins.variable} font-sans`}>{children}</body>
+      <body
+        className={`${Poppins.variable} ${PlayfairDisplay.variable} font-sans`}
+      >
+        {children}
+      </body>
     </html>
   );
 }

@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["var(--font-poppins)", ...fontFamily.sans],
+        playfair: ["var(--font-playfair)", ...fontFamily.sans],
       },
       colors: {
         primary: "#b19777",

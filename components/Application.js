@@ -41,7 +41,7 @@ export default function Application() {
           <h6 className="uppercase mb-[15px] font-normal text-[12px] tracking-[4px] relative pl-[40px] text-[#b19777] before:content-[''] before:w-[25px] before:h-[1px] before:bg-[#b19777] before:absolute before:top-1/2 before:left-0">
             Application
           </h6>
-          <h2 className="font-semibold text-[28px] md:text-[40px] leading-[1.4] mb-[20px]">
+          <h2 className="font-playfair font-semibold text-[28px] md:text-[40px] leading-[1.4] mb-[20px]">
             Handcrafted European Wood
           </h2>
         </div>

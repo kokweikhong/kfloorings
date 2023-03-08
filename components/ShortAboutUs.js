@@ -4,7 +4,7 @@ export default function ShortAboutUs() {
       <div className="lg:flex lg:flex-wrap">
         <div className="lg:flex-[0_0_41.666667%] lg:max-w-[41.666667%] px-[15px]">
           <div
-            className="h-[500px] w-full relative bg-cover md:w-[90%]"
+            className="font-playfair h-[500px] w-full relative bg-cover md:w-[90%]"
             style={{
               backgroundImage:
                 "linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/images/home/application_wall.jpg)",
@@ -32,7 +32,7 @@ export default function ShortAboutUs() {
             <h6 className="uppercase mb-[15px] font-normal text-[12px] tracking-[4px] relative pl-[40px] text-[#b19777] before:content-[''] before:w-[25px] before:h-[1px] before:bg-[#b19777] before:absolute before:top-1/2 before:left-0">
               About Us
             </h6>
-            <h2 className="mb-[20px] text-[28px] font-semibold leading-[1.4]">
+            <h2 className="font-playfair mb-[20px] text-[28px] font-semibold leading-[1.4]">
               Lorem ipsum dolor sit amet.
             </h2>
 
@@ -47,7 +47,9 @@ export default function ShortAboutUs() {
           <div className="flex flex-wrap -mx-[15px]">
             <div className="mt-[50px] px-[15px] relative w-full md:flex-[0_0_33.333333%] md:max-w-[33.333333%] before:content-[''] before:absolute before:right-[20%] before:-z-[1] before:border-t-[35px] before:border-r-[35px] before:bottom-[35px] before:border-t-transparent before:border-r-[#f7f7f7] before:w-0 before:h-0 after:content-[''] after:absolute after:right-[20%] after:-z-[1] after:w-[35px] after:h-[35px] after:bottom-0 after:bg-[#f7f7f7]">
               <h3 className="mb-[10px] text-primary font-semibold leading-[1.4]">
-                <span className="inline-block text-[50px]">352</span>
+                <span className="font-playfair inline-block text-[50px]">
+                  352
+                </span>
               </h3>
               <h6 className="text-[12px] font-medium tracking-[2px] uppercase">
                 PROJECTS COMPLETED
@@ -55,7 +57,9 @@ export default function ShortAboutUs() {
             </div>
             <div className="mt-[50px] px-[15px] relative w-full md:flex-[0_0_33.333333%] md:max-w-[33.333333%] before:content-[''] before:absolute before:right-[20%] before:-z-[1] before:border-t-[35px] before:border-r-[35px] before:bottom-[35px] before:border-t-transparent before:border-r-[#f7f7f7] before:w-0 before:h-0 after:content-[''] after:absolute after:right-[20%] after:-z-[1] after:w-[35px] after:h-[35px] after:bottom-0 after:bg-[#f7f7f7]">
               <h3 className="mb-[10px] text-primary font-semibold leading-[1.4]">
-                <span className="inline-block text-[50px]">567</span>
+                <span className="font-playfair inline-block text-[50px]">
+                  567
+                </span>
               </h3>
               <h6 className="text-[12px] font-medium tracking-[2px] uppercase">
                 SATISFIED CLIENTS
@@ -63,7 +67,9 @@ export default function ShortAboutUs() {
             </div>
             <div className="mt-[50px] px-[15px] relative w-full md:flex-[0_0_33.333333%] md:max-w-[33.333333%] before:content-[''] before:absolute before:right-[20%] before:-z-[1] before:border-t-[35px] before:border-r-[35px] before:bottom-[35px] before:border-t-transparent before:border-r-[#f7f7f7] before:w-0 before:h-0 after:content-[''] after:absolute after:right-[20%] after:-z-[1] after:w-[35px] after:h-[35px] after:bottom-0 after:bg-[#f7f7f7]">
               <h3 className="mb-[10px] text-primary font-semibold leading-[1.4]">
-                <span className="inline-block text-[50px]">17</span>
+                <span className="font-playfair inline-block text-[50px]">
+                  17
+                </span>
               </h3>
               <h6 className="text-[12px] font-medium tracking-[2px] uppercase">
                 AWARDS WON

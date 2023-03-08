@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 // import { Poppins } from "next/font/google";
 import Application from "@/components/Application";
 import ShortAboutUs from "@/components/ShortAboutUs";
+import Testimonial from "@/components/Testimonial";
 // const poppins = Poppins({
 //   weight: ["400", "500", "600", "700", "800", "900"],
 //   subsets: ["latin"],
@@ -70,6 +71,7 @@ export default function Home() {
 
       <ShortAboutUs />
       <Application />
+      <Testimonial />
 
       <section className="container mx-auto px-[15px] py-[120px]">
         <div className="flex flex-wrap justify-center -mx-[15px] mb-[80px]">
